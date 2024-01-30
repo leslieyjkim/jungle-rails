@@ -4,6 +4,14 @@
     <h1>My Cart</h1>
   </header>
 
+  <%# note: use if/else/end in order to control show or not, enhanced_cart is array(hash{key:value}) %>
+  <% if enhanced_cart.empty? %>
+    <div class="alert alert-warning" role="alert">
+      Empty cart! <br> please, see around more at <a href="/">here!</a>
+    </div>
+
+  <% else %>
+
   <div class="panel panel-default items">
     <table class="table table-bordered">
       <thead>
@@ -48,5 +56,5 @@
       <% end %>
     </div>
   </div>
-
+  <% end %>
 </section>
