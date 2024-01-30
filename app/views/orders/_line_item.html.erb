@@ -1,0 +1,18 @@
+<hr/>
+<tr>
+  <td>
+    <h4><%= line_item.product.name %></h4>
+    <%= image_tag line_item.product.image.tiny.url %>
+    <br>
+    <p><%= line_item.product.description %></p>
+  </td>
+  <td>
+    <div> Qty:
+    <%= line_item.quantity %>
+    <br> at unit price : <%= humanized_money_with_symbol line_item.product.price %>
+    </div>
+  </td>
+  <td>Total: 
+    <%= humanized_money_with_symbol line_item.product.price * line_item.quantity %>
+  </td>
+</tr>
