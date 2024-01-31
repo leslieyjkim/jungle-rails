@@ -23,6 +23,10 @@ Rails.application.routes.draw do
 
   # user
   resources :user, only: [:create, :new]
+
+  # sessions, index will do logout if user already logged in
+  resources :sessions, only: [:create, :new, :index]
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
