@@ -21,7 +21,8 @@ Rails.application.routes.draw do
   # get to /about, will call index method at about controller
   get '/about' => 'about#index'
 
-  
+  # user
+  resources :user, only: [:create, :new]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
