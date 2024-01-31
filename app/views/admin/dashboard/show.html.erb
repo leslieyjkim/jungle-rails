@@ -1,7 +1,7 @@
 <section class="admin-products-index">
 
   <header class="page-header">
-    <h1>Admin-dashboard</h1>
+    <h1>Admin &raquo; dashboard</h1>
   </header>
 
   <div class="panel panel-default products">
@@ -17,8 +17,7 @@
         <tr>
           <th colspan="2">All products</th>
           <td>
-            <a href="/admin/products">
-            <%= @allproducts %></a>
+            <%= link_to @allproducts, admin_products_path %>
           </td>
         </tr>
         <tr>
