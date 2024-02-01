@@ -1,6 +1,15 @@
-# Jungle
+# Jungle-Rails 🌿
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+
+## Section 
+1. Jungle Landing Page : Presenting an eye-catching, comprehensive overview of our entire product range, complete with dynamic badges indicating real-time stock availability.
+2. Product Detail page : Delve into in-depth product information and detailed specifications.
+3. Explore by Categories : Search categorized product lists.
+4. Discover All Products 
+5. Checkout Page : Check shopping cart, proceed to place your order.
+6. Order Summary : Check comprehensive summary detailingof order.
+7. About us : Get information about online shop, Jungle.
 
 ## Setup
 
@@ -17,6 +26,14 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 
 If Rails is complaining about authentication to the database, uncomment the user and password fields from `config/database.yml` in the development and test sections, and replace if necessary the user and password `development` to an existing database user.
 
+## Testing
+### Rspec
+Use command `bin/rspec` to run in the spec directory.\
+Or run `bin/rspec --format documentation` for more verbose results.
+
+### Cypress
+Use command `bin/rails cypress:open` to run in the cypress/integration folder.
+
 ## Stripe Testing
 
 Use Credit Card # 4111 1111 1111 1111 for testing success scenarios.
@@ -29,3 +46,5 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+
+# Ruby on Rails project 
