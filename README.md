@@ -1,8 +1,24 @@
 # Jungle-Rails 🌿
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+
 # Screenshots
 !["Screenshot of Landing Page"](https://github.com/leslieyjkim/jungle-rails/blob/master/docs/1_LandingPage.png?raw=true)
+
+!["Screenshot of Product Detail and Categories Page"]([)](https://github.com/leslieyjkim/jungle-rails/blob/master/docs/2_ProductDetailPage_&_ExploreCategories.png?raw=true)
+
+!["Screenshot of Discover Products"](https://github.com/leslieyjkim/jungle-rails/blob/master/docs/3_DiscoverProducts.png?raw=true)
+
+!["Screenshot of Login Page"](https://github.com/leslieyjkim/jungle-rails/blob/master/docs/4_LoginPage.png?raw=true)
+
+!["Screenshot of SignUp Page"](https://github.com/leslieyjkim/jungle-rails/blob/master/docs/5_SignUpPage.png?raw=true)
+
+!["Screenshot of My Cart Page"](https://github.com/leslieyjkim/jungle-rails/blob/master/docs/6_MyCartPage.png?raw=true)
+
+!["Screenshot of CheckOut Page"](https://github.com/leslieyjkim/jungle-rails/blob/master/docs/7_CheckOutPage.png?raw=true)
+
+!["Screenshot of Order Summary Page"](https://github.com/leslieyjkim/jungle-rails/blob/master/docs/8_OrderSummaryPage.png?raw=true)
+
 ## Section 
 1. Jungle Landing Page : Presenting an eye-catching, comprehensive overview of our entire product range, complete with dynamic badges indicating real-time stock availability.
 2. Product Detail page : Delve into in-depth product information and detailed specifications.
