@@ -1,7 +1,8 @@
 # Jungle-Rails 🌿
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
-
+# Screenshots
+!["Screenshot of Landing Page"](https://github.com/leslieyjkim/jungle-rails/blob/master/docs/1_LandingPage.png?raw=true)
 ## Section 
 1. Jungle Landing Page : Presenting an eye-catching, comprehensive overview of our entire product range, complete with dynamic badges indicating real-time stock availability.
 2. Product Detail page : Delve into in-depth product information and detailed specifications.
