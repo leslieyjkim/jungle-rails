@@ -5,7 +5,7 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 # Screenshots
 !["Screenshot of Landing Page"](https://github.com/leslieyjkim/jungle-rails/blob/master/docs/1_LandingPage.png?raw=true)
 
-!["Screenshot of Product Detail and Categories Page"]([)](https://github.com/leslieyjkim/jungle-rails/blob/master/docs/2_ProductDetailPage_&_ExploreCategories.png?raw=true)
+!["Screenshot of Products details & Explore by categories"](https://github.com/leslieyjkim/jungle-rails/blob/master/docs/2_ProductDetailPage_&_ExploreCategories.png?raw=true)
 
 !["Screenshot of Discover Products"](https://github.com/leslieyjkim/jungle-rails/blob/master/docs/3_DiscoverProducts.png?raw=true)
 
